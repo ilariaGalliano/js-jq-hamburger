@@ -8,7 +8,7 @@
   var menuOpen = $('.header-right > a');
   var menuClose = $('.close');
 
-//Visibilità con Show e Hide
+// Visibilità con Show e Hide
 menuOpen.click( function(){
   hamburger.show()
 });
@@ -17,7 +17,7 @@ menuClose.click( function(){
   hamburger.hide()
 });
 
-//Visibilità con fadeIn e fadeOut
+// Visibilità con fadeIn e fadeOut
 menuOpen.click( function(){
   hamburger.fadeIn()
 });
@@ -26,7 +26,7 @@ menuClose.click( function(){
   hamburger.fadeOut()
 });
 
-// Aggiunta/rimozione della classe ".active"
+//  Visibilità con aggiunta/rimozione della classe ".active"
 menuOpen.click( function(){
   hamburger.addClass('active')
 });
