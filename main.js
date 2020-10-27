@@ -16,3 +16,21 @@ menuOpen.click( function(){
 menuClose.click( function(){
   hamburger.hide()
 });
+
+//Visibilità con fadeIn e fadeOut
+menuOpen.click( function(){
+  hamburger.fadeIn()
+});
+
+menuClose.click( function(){
+  hamburger.fadeOut()
+});
+
+// Aggiunta/rimozione della classe ".active"
+menuOpen.click( function(){
+  hamburger.addClass('active')
+});
+
+menuClose.click( function(){
+  hamburger.removeClass('active')
+});
