@@ -26,7 +26,7 @@ menuClose.click( function(){
   hamburger.fadeOut()
 });
 
-//  Visibilità con aggiunta/rimozione della classe ".active"
+// Visibilità con aggiunta/rimozione della classe ".active"
 menuOpen.click( function(){
   hamburger.addClass('active')
 });
